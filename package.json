@@ -1,0 +1,15 @@
+{
+  "name": "tigris-error-reproduction",
+  "author": "tyuop077",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "npx ts-node src/init",
+    "prestart1": "npx ts-node scripts/setup"
+  },
+  "dependencies": {
+    "@next/env": "^13.1.6",
+    "@tigrisdata/core": "^1.0.0-beta.30",
+    "@types/node": "^18.13.0",
+    "typescript": "^4.9.5"
+  }
+}
