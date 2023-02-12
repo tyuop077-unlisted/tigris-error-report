@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "scripts": {
     "start": "npx ts-node src/init",
-    "prestart1": "npx ts-node scripts/setup"
+    "prestart": "npx ts-node scripts/setup"
   },
   "dependencies": {
     "@next/env": "^13.1.6",
